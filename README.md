@@ -1,0 +1,3 @@
+# Incorrect Zero Handling in Function
+This repository contains a JavaScript function with a subtle bug related to its handling of zero inputs. The function aims to return 0 if either or both of its input parameters are 0, and otherwise return their sum. However, the original implementation incorrectly returns 0 even if only one of the parameters is non-zero.
+The bug is demonstrated in the `bug.js` file. The corrected version is provided in `bugSolution.js`.  This example highlights the importance of careful consideration of edge cases, particularly those involving zero values, when writing functions.
